@@ -1,0 +1,64 @@
+body {
+  padding-bottom: 5px;
+  background-color:  whitesmoke;
+}
+
+.logo-img{
+  width:50px;
+  height: 50px;
+  margin-top: -1rem;
+  border-right: 1rem;
+}
+
+.bio{
+  background-color: ;
+  border-radius: 1% 1% 1% 1%;
+}
+
+.eklogo{
+  text-align: center;
+}
+
+.eklogo > img{
+  height: 200px;
+  width: 200px;
+}
+
+.head{
+  text-align: center;
+  font-size: 2rem;
+  color: yellowgreen;
+}
+
+.header{
+  font-weight: bold;
+  color: white;
+}
+
+.bd-list{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.description{
+  
+}
+
+
+.footer {
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: auto;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: black;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.footed {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}

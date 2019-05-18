@@ -1,0 +1,83 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.biodata{
+ padding-bottom: 2rem;
+}
+
+.form-control {
+  width: 70%;
+  padding: 15px;
+  margin: 0 auto;
+  margin-left: 1rem;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="lname"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="email"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+
+.heading{
+  font-size: 5rem;
+}
+.heads{
+  font-size: 4rem;
+}
+.heads-sm{
+  font-size: 3rem;
+}
+
+
+table{
+ width: 100%;
+}
+td{
+  font-size: 3rem;
+}
+
+.lists{
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+
+.amount{
+  font-size: 3rem;
+  padding-top: 2px;
+}
+
+.submit{
+  font-size: 5rem;
+  width: 30%;
+  text-align: center;
+  margin-left: 35%;
+}

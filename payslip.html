@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="signup.css">
+  </head>
+<body class="body">
+
+<div class="jumbotron ">
+    <h1 class="holder">EKITI STATE UNIVERSITY TEACHING HOSPITAL, ADO-EKITI PAYSLIP FOR THE MONTH OF {PHP return month}</h1>
+
+
+   
+    <form action="entry.php" method="POST">
+    <img class="mb-4" src="images/favicon.ico" alt="" width="72" height="72"> 
+     <h1 class="holder-sm">Enter recipient details</h1>
+   <div class="biodata">
+        <input type="text" id="fname" name="fname" class="form-control" placeholder="Full name" required autofocus>
+
+         <input type="text" id="bank" name="bank" class="form-control" placeholder="Bank" required>
+
+        <input type="text" id="acc-no" name="acc-no" class="form-control" placeholder="Account number" required>
+
+        <input type="text" id="gl" name="gl" class="form-control" placeholder="GL" required>
+
+        <input type="text" id="rank" name="rank" class="form-control" placeholder="Rank" required>
+    </div>
+
+    <div class="others" style="width: 100%">
+    </div>
+
+           <h1>Recipients' Balance sheet</h1>
+<!-- RECEIPT TABLE FORMAT -->
+<div class="row balance-sheet" style="">
+
+  <div class="col-md-6" style="background: white;width: 98%; border-right: 1rem">
+  <h1 class="heading">Earnings</h1>
+  
+  <table class="heads">
+<tr><th>Income</th><th>Amount</th></tr>
+<tr><td></td><td>Naira</td></tr>
+
+<tr><td>BASIC SALARY</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount" required autofocus></td>
+</tr>
+
+<tr><td>RENT ALLOWANCE</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td>
+</tr>
+
+<tr><td>TEACHING ALLOWANCE</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td>
+</tr>
+
+<tr><td>NON-CLINICAL ALLOWANCE</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td>
+</tr>
+
+<tr><td>CLINICAL ALLOWANCE</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td>
+</tr>
+
+<tr><td>HAZZARD ALLOWANCE</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td>
+</tr>
+
+<tr><td>SHIFT ALLOWANCE</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td>
+</tr>
+
+<tr><td>NEWSPAPER ALLOWANCE</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td>
+</tr>
+
+<tr><td>SPECIALIST ALLOWANCE</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td>
+</tr>
+
+<tr><td>BASIC SALARY</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td>
+</tr>
+
+<tr><td>UTILITY ALLOWANCE</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td>
+</tr>
+
+<tr><td>CALL DUTY ALLOWANCE</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td>
+</tr>
+
+<tr><td>GOVT. CONT. PENSION</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td>
+</tr>
+
+<tr><td>OVERTIME</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td>
+</tr>
+
+<tr><td>ARREARS</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td>
+</tr>
+
+<tr><td><br></td><br></tr>
+
+<tr><td>GROSS PAY</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td>
+</tr>
+
+
+</table>
+
+  </div>
+
+
+
+  <div class="col-md-6" style="background: red;max-width: 90%; border-left: 1rem">
+  <h1 class="heading">Deductions</h1>
+    <table class="heads">
+<tr><th>Income</th><th>Amount</th></tr>
+<tr><td></td><td>Naira</td></tr>
+
+<tr><td>TAX</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td>
+</tr>
+
+<tr><td>MOTOR VEHICLE LOAN</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td></tr>
+
+<tr><td>TEACHING ALLOWANCE</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td>
+</tr>
+
+<tr><td>HOUSING LOAN</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td>
+</tr>
+
+<tr><td>WEMA BANK SHARES</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td>
+</tr>
+
+<tr><td>HOUSE OFFICER'S RENT</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td>
+</tr>
+
+<tr><td>SALARY ADVANCE</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td>
+</tr>
+
+<tr><td>OVERPAYMENT</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td>
+</tr>
+
+<tr><td>SUB CHARGE</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td>
+</tr>
+
+<tr><td>CONTRIBUTORY P.SCHEME</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td>
+</tr>
+
+<tr><td align="center">CT & CS</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td>
+</tr>
+
+<tr><td align="center">CT & CS</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td>
+</tr>
+
+<tr><td align="center">CT & CS</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td>
+</tr>
+
+<tr><td>UNION DUES</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td>
+</tr>
+
+<tr><td>UNION DUES</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td>
+</tr>
+
+<tr><td><br></td><br></tr>
+
+<tr><td>TOTAL DEDUCTION</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td>
+</tr>
+
+<tr><td><br></td><br></tr>
+
+<tr><td>NET PAY</td>
+<td><input type="text" id="bs" class="amount" placeholder="Amount"></td>
+</tr>
+
+</table>
+    </div> 
+  </div>
+<br>
+        <button class="btn btn-lg btn-primary btn-block submit" type="submit" name="btn-signup">Submit entry</button>
+      </form>
+    </div>
+ 
+
+
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jquery-ui.min.js"></script>
+<script type="text/javascript" src="sound.js"></script>
+</div>
+  </body>
+</html>
